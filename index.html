@@ -12,4 +12,22 @@
   <button onclick="sendGcode('G90; G0 X0 Y0; M3 S1000')">🚀 Start Job</button>
   <script src="app.js"></script>
 </body>
+  <h1>ManuCNC</h1>
+<div class="menu">
+  <button id="btnHome">🏠 Home All</button>
+  <button id="btnProbeZ">🖊️ Probe Z</button>
+  <button id="btnStartJob">🚀 Start Job</button>
+  <button id="btnStop">🛑 Emergency Stop</button>
+  <button id="btnOrigin">🔄 Go Origin</button>
+  <button id="btnLevelZ">📐 Level Z</button>
+  <button id="btnLevelXY">📐 Level X/Y</button>
+</div>
+<div class="status">
+  <p>X: <span id="posX">--</span></p>
+  <p>Y: <span id="posY">--</span></p>
+  <p>Z: <span id="posZ">--</span></p>
+</div>
+<script src="config.js"></script>
+<script src="App.js"></script>
+
 </html>
