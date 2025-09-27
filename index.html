@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ManuCNC WebUI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ManuCNC</h1>
+  <button onclick="sendGcode('G28')">🏠 Home All</button>
+  <button onclick="sendGcode('G38.2 Z-10 F100')">📏 Probe Z</button>
+  <button onclick="sendGcode('G90; G0 X0 Y0; M3 S1000')">🚀 Start Job</button>
+  <script src="app.js"></script>
+</body>
+</html>
